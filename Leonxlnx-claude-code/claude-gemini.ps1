@@ -7,3 +7,4 @@ if (-not $env:GEMINI_API_KEY) {
 
 & node (Join-Path $repoRoot "claude-gemini-launcher.js") @args
 exit $LASTEXITCODE
+
